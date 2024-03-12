@@ -1,20 +1,47 @@
 /*defaut setting start*/
 * {
-    padding: 0;
+    padding: 0 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-body {
+main {
     background-color: #d8934a24;
+    padding: 0 48px;
+
 }
 
+.nav_bar{
+    width: 33%;
+}
 /*bỏ gạch dưới chân */
 ul {
     list-style: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
 }
-li{
+
+li a{
+    display: inline-block;
+    color: black;
     list-style: none;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 12px;
+    border-radius: 8px;
+    transition: all ease 0.2s;
+}
+
+li a:hover{
+    background-color: #eeecec;
+}
+
+li a:active{
+    background-color: #eeecec;
+    transform: scale(0.98);
+    opacity: 0.7;
 }
 /*set font chữ*/
 html {
@@ -72,10 +99,18 @@ h5 {
     color: rgba(0, 0, 0, 0.8);
 }
 
+h1,h2,h3{
+    margin: 8px 0;
+}
 /*-------*/
 
 /*---------------base end--------------------------*/
-
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 48px;
+}
 /*--------------------------------------------------*/
 #main {
 
@@ -94,3 +129,8 @@ header{
 }
 /*header end*/
 /*body start*/
+
+figure{
+    text-align: center;
+    margin: 8px 0 20px;
+}

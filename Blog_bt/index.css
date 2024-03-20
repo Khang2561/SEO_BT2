@@ -134,3 +134,101 @@ figure{
     text-align: center;
     margin: 8px 0 20px;
 }
+
+/* ====================FOOTER========================== */
+
+.footer {
+    font-size: 12px;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #fff;
+    padding: 24px 48px 0;
+}
+
+.firstWrapperFooter {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footer .logoInforFooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    margin: 0;
+}
+
+.footer .logoInforFooter .logo {
+    margin-bottom: 1rem;
+}
+
+.footer .logoInforFooter .footerSlogan {
+    font-size: 1rem;
+    margin: 0.5rem 0 0;
+    font-weight: bold;
+}
+
+.footer .flexContainerFooter {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    line-height: 1.8em;
+    margin: 0;
+}
+
+.footer .flexContainerFooter ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .flexContainerFooter li span {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 0 16px;
+    display: inline-block;
+}
+
+.footer .flexContainerFooter li ul li {
+    cursor: pointer;
+    transition: color 0.15s ease;
+}
+
+.footer .flexContainerFooter li ul li:hover {
+    color: rgb(6, 6, 222);
+}
+
+footer hr {
+    margin: 20px 0 0;
+}
+
+.footer .secondWrapperFooter {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .secondWrapperFooter .contactMedia {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer .secondWrapperFooter .contactMedia span {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-right: 16px;
+}
+
+.footer .secondWrapperFooter .contactMedia .media a {
+    margin-left: 4px;
+}
+
+.footer .secondWrapperFooter .contactMedia img {
+    height: 2rem;
+    width: 2rem;
+}
